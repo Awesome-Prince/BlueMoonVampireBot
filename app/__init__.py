@@ -33,4 +33,4 @@ bot = Client(
       plugins=dict(root="{}/plugins".format(__name__))
 )
 
-ldb = LocalDb("reasons"
+ldb = LocalDb("reasons")
